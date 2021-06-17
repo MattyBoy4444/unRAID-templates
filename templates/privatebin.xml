@@ -11,7 +11,7 @@
   <Category>Other:</Category>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/selfhosters/unRAID-CA-templates/master/templates/privatebin.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/MattyBoy4444/unRAID-templates/main/templates/img/privatebin.png</Icon>
+  <Icon>https://raw.githubusercontent.com/selfhosters/unRAID-CA-templates/master/templates/img/privatebin.png</Icon>
   <ExtraParams>--read-only</ExtraParams>
   <Config Name="WebUI" Target="8080" Default="" Mode="tcp" Description="Container Port: 80" Type="Port" Display="always" Required="null" Mask="false"/>
   <Config Name="Config" Target="/srv/data" Default="/mnt/user/appdata/privatebin" Mode="rw" Description="Container Path: /srv/data" Type="Path" Display="advanced" Required="true" Mask="false"/>
